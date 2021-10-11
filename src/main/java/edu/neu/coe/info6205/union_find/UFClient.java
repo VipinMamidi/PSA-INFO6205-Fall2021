@@ -48,8 +48,9 @@ public class UFClient {
             //generateRandomIntegerPairs(n);
             uf = new UF_HWQUPC(n);
             count(n);
-            System.out.println("No. of Components : " + uf.components());
+            System.out.println("No. of Objects : " + n);
             System.out.println("No. of Connections Generated : " + connectionsGenerated);
+            System.out.println("No. of Components : " + uf.components());
             System.out.println("Predicted Pairs Generated : " + (0.5) * n * Math.log(n));
         }
     }
